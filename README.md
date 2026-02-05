@@ -42,7 +42,6 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
 ![Alt text](img/img1.png)
 
 cat < file2
@@ -82,18 +81,18 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
+![Alt text](img/img6.png)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
+![Alt text](img/img7.png)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![Alt text](img/img8.png)
 
 cat < newfile 
 ```
@@ -107,40 +106,40 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
+![Alt text](img/img9.png)
 
 
 grep hello newfile 
 ## OUTPUT
-
+![Alt text](img/img10.png)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-
+![Alt text](img/img11.png)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
+![Alt text](img/img12.png)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
+![Alt text](img/img13.png)
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-
+![Alt text](img/img14.png)
 
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![Alt text](img/img15.png)
 
 cat < newfile 
 ```
@@ -163,61 +162,61 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
+![Alt text](img/img16.png)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
+![Alt text](img/img17.png)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
-
+![Alt text](img/img18.png)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
+![Alt text](img/img19.png)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
+![Alt text](img/img20.png)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+![Alt text](img/img21.png)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
+![Alt text](img/img22.png)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
+![Alt text](img/img23.png)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![Alt text](img/img24.png)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+![Alt text](img/img25.png)
 
 egrep l{2} newfile
 ## OUTPUT
 
-
+![Alt text](img/img26.png)
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
 
-
+![Alt text](img/img27.png)
 cat > file23
 ```
 1001 | Ram | 10000 | HR
@@ -235,17 +234,17 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
-
+![Alt text](img/img28.png)
 
 sed -n -e '$p' file23
 ## OUTPUT
 
-
+![Alt text](img/img29.png)
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
-
+![Alt text](img/img30.png)
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
