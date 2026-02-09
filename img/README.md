@@ -501,14 +501,14 @@ fi
 ```
 ##OUTPUT
 
-![Alt text](img/img61.png)
+
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
 
-![Alt text](img/img62.png)
+
 # check file ownership
 cat < psswdperm.sh 
 ```bash
@@ -534,7 +534,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-![Alt text](img/img63.png)
+
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -580,7 +580,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-![Alt text](img/img65.png)
+
 
 
 # using numeric test comparisons
@@ -672,9 +672,7 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-
-## OUTPUT
-![Alt text](img/img66.png)
+##OUTPUT
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -703,7 +701,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-![Alt text](img/img67.png)
+
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -719,7 +717,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-![Alt text](img/img68.png)
+
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -754,7 +752,7 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  ## OUTPUT
-![Alt text](img/img70.png)
+ 
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -768,7 +766,7 @@ done
 $ chmod 755 untiltest.sh
 $ ./untiltest.sh
  ## OUTPUT
-![Alt text](img/img71.png)
+ 
  
 cat forin1.sh 
 ```bash
@@ -831,7 +829,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
-![Alt text](img/img77.png)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -853,7 +851,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-![Alt text](img/img73.png)
+
 
 cat forctype.sh 
 ```bash
@@ -867,7 +865,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
-![Alt text](img/img74.png)
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -880,7 +878,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-![Alt text](img/img75.png)
+
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -898,7 +896,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-![Alt text](img/img76.png)
+
  
 cat forbreak.sh 
 ```bash
