@@ -321,7 +321,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-![Alt text](img/img44.png)
+
 
 cat > file22
 ```
@@ -335,13 +335,13 @@ cat > file22
 uniq file22
 ## OUTPUT
 
-![Alt text](img/img45.png)
+
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-![Alt text](img/img46.png)
+
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -358,17 +358,17 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-![Alt text](img/img47.png)
+
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-![Alt text](img/img48.png)
+
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![Alt text](img/img49.png)
+
 
 mkdir backupdir
  
@@ -379,18 +379,18 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
-![Alt text](img/img50.png)
+
 tar -xvf backup.tar
 ## OUTPUT
-![Alt text](img/img51.png)
+
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- ![Alt text](img/img52.png)
+ 
 gunzip backup.tar.gz
 ## OUTPUT
-![Alt text](img/img53.png)
+
  
 # Shell Script
 ```
@@ -400,7 +400,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-![Alt text](img/img54.png)
+
  
 cat << stop > herecheck.txt
 ```
@@ -412,7 +412,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-![Alt text](img/img55.png)
+
 
 cat < scriptest.sh 
 ```bash
@@ -450,26 +450,25 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-![Alt text](img/img56.png)
+
  
 ls file1
 ## OUTPUT
-![Alt text](img/img57.png)
-echo $?
-## OUTPUT
- ![Alt text](img/img58.png)
-./one
-bash: ./one: Permission denied
 
 echo $?
 ## OUTPUT 
- ![Alt text](img/img59.png)
+./one
+bash: ./one: Permission denied
+ 
+echo $?
+## OUTPUT 
+ 
 abcd
  
 echo $?
  ## OUTPUT
 
-![Alt text](img/img60.png)
+
  
 # mis-using string comparisons
 
