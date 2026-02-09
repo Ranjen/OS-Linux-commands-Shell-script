@@ -499,7 +499,7 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
 
 ![Alt text](img/img61.png)
 
@@ -831,7 +831,9 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
 ![Alt text](img/img77.png)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -914,13 +916,14 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
 
 $ chmod 755 forbreak.sh
  
-$ ./forbreak.sh 
- 
-cat forbreak.sh 
+$ ./forbreak.sh
+
+## OUTPUT
+ ![Alt text](img/img78.png)
+cat forcontinue.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -940,7 +943,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![Alt text](img/img79.png)
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -954,7 +957,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
+![Alt text](img/img80.png)
 
  cat exread1.sh
 ```bash
@@ -965,11 +968,11 @@ echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
 
+$ ./exread1.sh 
+
 ## OUTPUT
 
-
-
-$ ./exread1.sh 
+![Alt text](img/img81.png)
  
 cat funcex.sh
 ```bash
@@ -986,12 +989,12 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
+./funcex.sh 
+./funcex.sh 1 2
+
 ## OUTPUT
- ./funcex.sh 
 
- 
- ./funcex.sh 1 2
-
+![Alt text](img/img82.png)
  
 cat argshift.sh
 ```bash
@@ -1002,9 +1005,10 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
-
-## OUTPUT
+./argshift.sh
 $ ./argshift.sh 1 2 3
+## OUTPUT
+![Alt text](img/img83.png)
  
  cat argshift1.sh
 ```bash
@@ -1020,8 +1024,9 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
+![Alt text](img/img84.png)
  
 cat argshift.sh
 ```bash
@@ -1033,9 +1038,10 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
  ./argshift.sh 1 2 3
- 
+## OUTPUT
+
+ ![Alt text](img/img85.png)
  
 cat > nc.awk
 ```bash
@@ -1066,7 +1072,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ [Title](README.md) ![Alt text](img/img86.png)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1092,8 +1099,9 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
+awk -f nc.awk palindrome.sh
 ## OUTPUT 
-
+![Alt text](img/img87.png)
 
 # RESULT:
 The Commands are executed successfully.
